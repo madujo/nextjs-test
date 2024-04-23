@@ -1,5 +1,6 @@
 import styles from "@/styles/movie-info.module.css";
-import {API_URL} from "@/app/(home)/page";
+import {API_URL} from "@/app/constant";
+
 
 export async function getMovie(id: string) {
     //await new Promise((resolve) => setTimeout(resolve, 4000));
